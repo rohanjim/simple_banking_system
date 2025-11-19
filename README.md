@@ -1,8 +1,8 @@
 # simple_banking_system
 A console-based banking system written in Python that allows Admins and Customers to perform basic banking operations.
 The system uses simple .txt files as a lightweight database to store user accounts and transaction history.
-🚀 Features
-👨‍💼 Admin Functions
+#🚀 Features
+#👨‍💼 Admin Functions
 
 Secure Admin Login
 
@@ -14,7 +14,7 @@ View Customer Transaction History
 
 Automatically logs initial balance as a Deposit
 
-👤 Customer Functions
+#👤 Customer Functions
 
 Customer Login
 
@@ -26,7 +26,7 @@ View Transaction History
 
 Real-time balance calculation
 
-📁 Database Files
+#📁 Database Files
 
 This system uses three text files as databases:
 
@@ -37,20 +37,20 @@ transaction_db.txt
 
 All files must be in the same folder as the Python script.
 
-🧩 Sample Data Included
-📌 admin_db.txt
+#🧩 Sample Data Included
+#📌 admin_db.txt
 A1001,David,admin123
 A1002,Sophia,securepass
 A1003,Michael,pass2025
 
-📌 customer_db.txt
+#📌 customer_db.txt
 C2001,Alice Tan,Kuala Lumpur,0123456789,alice2025,1500
 C2002,Ravi Kumar,Penang,0119988776,ravi789,2500
 C2003,Linda Wong,Johor,0175544332,linda123,3200
 C2004,Marcus Lee,Selangor,0136677889,marcus88,500
 C2005,Siti Aisyah,Sabah,0194433221,siti556,1000
 
-📌 transaction_db.txt
+#📌 transaction_db.txt
 C2001,1500,Deposit
 C2001,-300,Withdrawal
 C2001,200,Deposit
@@ -67,7 +67,7 @@ C2004,-50,Withdrawal
 C2005,1000,Deposit
 C2005,300,Deposit
 
-▶ How to Run
+#▶ How to Run
 1. Install Python 3
 
 Download from https://www.python.org
@@ -89,7 +89,7 @@ Open the VS Code terminal and type:
 
 python banking_system.py
 
-🎯 Learning Objectives
+#🎯 Learning Objectives
 
 This beginner‐friendly project demonstrates:
 
@@ -107,7 +107,7 @@ Text-based data storage
 
 Ideal for Python students, assignments, and mini-projects.
 
-📌 Limitations
+#📌 Limitations
 
 Passwords stored in plain text
 
@@ -119,7 +119,7 @@ No GUI
 
 Some menus use recursion instead of loops
 
-🌟 Possible Future Improvements
+#🌟 Possible Future Improvements
 
 Migrate to SQLite/MySQL
 
